@@ -1,0 +1,88 @@
+head{
+    margin: 0;
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica;
+}
+header{
+    background-color: wheat;
+    text-align: center;
+}   
+nav{
+    background-color: #333;
+    overflow: hidden;
+}
+nav a{
+    float: left;
+    text-decoration: none;
+    padding:  15px 20px;
+    color: white;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+em{
+    color: red;
+}
+footer{
+    background-color: wheat;
+    text-align: center;
+    padding: 12px;
+}
+button{
+    padding: 10px 20px;   
+}
+body{
+    background-color: wheat;
+}
+.form_search{
+    float: right;
+    width: 40%;
+    height: 40px;
+}
+form .fa-search{
+   
+    padding: 10px 10px;
+    color: white;
+}
+
+form input{
+    width: 50%;
+    
+}
+.section{
+    display: flex;
+    padding: 75px;
+    width: 80%;
+    margin: 20px;;
+}
+h3{
+    margin: 0px 100px;
+    text-align: left;
+}
+
+section h1{
+    margin: 0;
+    float: left;
+    text-align: justify;
+}
+.column{
+    float: left;
+    padding: 1px;
+    width: 40%;
+    text-align: left;
+}
+.column.one{
+    width: 49%;
+}
+.column.two{
+    width: 49%;
+}
+.column.three{
+    width: 49%;
+}
+.column.four{
+    width: 49%;
+}
+
+
